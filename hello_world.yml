@@ -4,4 +4,8 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+    - name: Hello File
+      file:
+        path: /tmp/hello.world
+        state: touch
 
